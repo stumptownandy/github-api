@@ -60,7 +60,7 @@ X-Content-Type-Options: nosniff
 
 The main thing this is telling us, is that our base endpoint is https://api.github.com. This is because it's the base URL of that cURL request. For the rest of the documentation we will be shown urls that look like this: /orgs/octokit/repos. All that means is https://api.github.com/orgs/octokit/repos.
 
-The section we are looking for is the one about getting user data: https://developer.github.com/v3/users.Take some time to read through the documentation and understand the different kinds of data you can get about users.
+The section we are looking for is the one about getting user data: https://developer.github.com/v3/users. Take some time to read through the documentation and understand the different kinds of data you can get about users.
 
 Here is the data we will want to get:
 - User Avatar
