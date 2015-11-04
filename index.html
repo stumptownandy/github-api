@@ -7,9 +7,12 @@
 </head>
 
 <body ng-controller="GitHubController">
-<div><input type="button" ng-click="getUserData()"/>
+<div>
+    <input type="button" ng-click="getUserData()"/>
     <input type="submit" ng-model="searchText"/>
-    {{user.name}}
+    <div> Username: {{user.login}}</div>
+    <div>name:{{user.name}}</div>
+    <div> Public Repos: {{user.public_repos}}</div>
     </div>	
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 <script src="app.js"></script>
