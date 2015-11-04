@@ -5,18 +5,20 @@
   <meta charset="utf-8">
   <title>Github-API</title>
 </head>
-
-<body ng-controller="GitHubController">
 <div>
-    <input type="button" ng-click="getUserData()"/>
-    <input type="submit" ng-model="searchText"/>
+    <body ng-controller="GitHubController"
+    <input ng-click='getUserData'/>
+    <input ng-type='submit'/>
+    <button>Submit</button>
+    <input ng-model='searchText'/>
     <div> Username: {{user.login}}</div>
-    <div>name:{{user.name}}</div>
+    <div>Name:{{user.name}}</div>
     <div> Public Repos: {{user.public_repos}}</div>
-    </div>	
+    </div>
+    	
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 <script src="app.js"></script>
 <script src="controller.js"></script>
 <script src="service.js"></script>
     </body>
-</html>
+</head>
